@@ -1,9 +1,11 @@
 body {
   font-family: 'Libre Baskerville', serif;
   background: #f6f9fc;
+  color: #2c2a41;
 }
 
 h1 {
+  font-size: 3em;
   margin-bottom: 1em;
 }
 
@@ -50,7 +52,7 @@ h6 {
     flex-direction: column;
     align-items: flex-end;
     margin-left: 2em;
-    padding: 4.6em 1em;
+    padding: 7.8em 1em 3em;
     text-align: right;
     // background: #fff;
     max-width: 17em;
@@ -156,7 +158,7 @@ h6 {
 
   &__sentence {
     background: var(--length-color);
-    padding: 0.2em;
-    line-height: 1.6em;
+    padding: 0.3em 0;
+    line-height: 1.76em;
   }
 }
