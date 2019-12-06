@@ -3,6 +3,10 @@ body {
   background: #f6f9fc;
 }
 
+h1 {
+  margin-bottom: 1em;
+}
+
 h6 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -46,7 +50,7 @@ h6 {
     flex-direction: column;
     align-items: flex-end;
     margin-left: 2em;
-    padding: 3em 1em;
+    padding: 4.6em 1em;
     text-align: right;
     // background: #fff;
     max-width: 17em;
