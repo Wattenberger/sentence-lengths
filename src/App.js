@@ -79,15 +79,14 @@ function App() {
 export default App;
 
 const colors = ["#c7ecee", "#778beb", "#f7d794", "#63cdda", "#cf6a87", "#e77f67", "#786fa6", "#FDA7DF", "#4b7bec", "#778ca3"]
-const lengthScale = scaleLinear()
-  .domain([0, 27])
-  .range(["#a29bfe", "#fff"])
-// const lengthScale = len => (
-//   len <=  3 ? "#c7ecee" :
-//   len <=  6 ? "#FDA7DF" :
-//   len <= 10 ? "#778beb" :
-//   len <= 15 ? "#63cdda" :
-//   len <= 20 ? "#786fa6" :
-//   len <= 30 ? "#cf6a87" :
-//   "#4b7bec"
-// )
+// const lengthScale = scaleLinear()
+//   .domain([0, 27])
+//   .range(["#a29bfe", "#fff"])
+const lengthScale = len => (
+  len <=  2 ? "#FFEDB8" :
+  len <=  6 ? "#F4D9FD" :
+  len <= 12 ? "#E3EFC3" :
+  len <= 20 ? "#B8EFED" :
+  len <= 30 ? "#FDE2BC" :
+    "#F9BCBE"
+)
